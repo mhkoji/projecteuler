@@ -1,5 +1,4 @@
-;; 600851475143
-
+;; 6857
 (let* ((N 600851475143)
        (lim (ceiling (sqrt N))))
   (defun main ()

@@ -33,6 +33,7 @@
                         (lambda (x) (= (mod x prime) 0))
                         integers)))))
 
+;104743
 (defun main ()
   (pipe-elt (primes) 10000))
 

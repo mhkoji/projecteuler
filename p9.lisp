@@ -1,3 +1,4 @@
+;31875000
 (defun main ()
   (loop for a from 1 to 1000 do
     (loop for b from (+ a 1)

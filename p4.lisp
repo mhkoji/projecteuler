@@ -13,6 +13,7 @@
 ;;           (return-from main (* x y z)))))))
 
 ;; 多分 900 <= x,y s<= 999の間に解があるだろう => あった
+;; 906609
 (defun main ()
   (let ((numbers nil))
     (loop for x from 999 downto 900 do

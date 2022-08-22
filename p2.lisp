@@ -1,4 +1,5 @@
 ;; a(n+2) = a(n+1) + a(n)
+;; 4613732
 (defun main ()
   (let ((table (make-array 1000000))) ;十分長い
     (setf (aref table 0) 1)
